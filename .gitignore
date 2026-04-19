@@ -1,0 +1,34 @@
+# Flutter/Dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+build/
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# pub
+pubspec.lock
+
+# example build
+example/build/
+example/.dart_tool/
+example/.flutter-plugins
+example/.flutter-plugins-dependencies
+example/pubspec.lock
+example/.idea/
+example/android/.gradle/
+example/android/local.properties
+example/ios/Pods/
+example/ios/.symlinks/
+example/ios/Flutter/Generated.xcconfig
+example/ios/Flutter/flutter_export_environment.sh
+
+# macOS
+.DS_Store
+
+# Python helper scripts
+gen.py
+write_readme.py

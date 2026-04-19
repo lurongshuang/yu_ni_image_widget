@@ -1,0 +1,19 @@
+name: yu_ni_image_widget
+description: Flutter image display widget with injected BaseCacheManager.
+version: 0.1.0
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: '>=3.10.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_cache_manager: ^3.4.1
+  octo_image: ^2.1.0
+  yuni_widget: ^0.1.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
