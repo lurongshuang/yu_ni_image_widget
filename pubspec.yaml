@@ -1,6 +1,24 @@
 name: yu_ni_image_widget
-description: Flutter image display widget with injected BaseCacheManager.
+description: A high-performance Flutter image widget with separated display and cache, classified memory management, and viewport priority scheduling.
 version: 0.1.0
+homepage: https://github.com/lurongshuang/yu_ni_image_widget
+repository: https://github.com/lurongshuang/yu_ni_image_widget
+issue_tracker: https://github.com/lurongshuang/yu_ni_image_widget/issues
+
+topics:
+  - image
+  - cache
+  - performance
+  - scheduler
+  - widget
+
+platforms:
+  android:
+  ios:
+  macos:
+  web:
+  windows:
+  linux:
 
 environment:
   sdk: '>=3.0.0 <4.0.0'
