@@ -2,6 +2,7 @@ import 'dart:async';
 import 'dart:collection';
 
 import 'package:flutter_cache_manager/flutter_cache_manager.dart';
+import 'package:yu_ni_image_widget/src/extension/string_extension.dart';
 
 /// 图片加载任务的优先级。
 enum YuniImageLoadPriority {
@@ -249,7 +250,7 @@ class YuniImageLoadScheduler {
     _running[task.url] = task;
 
     task.cacheManager
-        .getSingleFile(task.url, headers: task.headers)
+        .getSingleFile(task.url, key: task.url.MD5, headers: task.headers)
         .then((file) {
       if (!task.cancelled && !task.completer.isCompleted) {
         task.completer.complete(file.path);
