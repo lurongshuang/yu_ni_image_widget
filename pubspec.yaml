@@ -1,6 +1,6 @@
 name: yu_ni_image_widget
 description: A high-performance Flutter image widget with separated display and cache, classified memory management, and viewport priority scheduling.
-version: 0.1.0
+version: 0.1.1
 homepage: https://github.com/lurongshuang/yu_ni_image_widget
 repository: https://github.com/lurongshuang/yu_ni_image_widget
 issue_tracker: https://github.com/lurongshuang/yu_ni_image_widget/issues
@@ -30,6 +30,8 @@ dependencies:
   flutter_cache_manager: ^3.4.1
   octo_image: ^2.1.0
   yuni_widget: ^0.1.8
+  crypto: ^3.0.7
+
 
 dev_dependencies:
   flutter_test:
